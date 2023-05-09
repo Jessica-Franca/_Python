@@ -75,7 +75,7 @@ class UserAPI:
 
 if __name__ == '__main__':
     results_count = 1
-    filename_csv= 'C:/Users/Jéssica/Documents/Estudo/Python/01-LeituraAPI_ImportCSV/base_dados.csv'
+    filename_csv= 'seu_arquivo.csv'
     api = UserAPI(results_count, filename_csv)
     api.get_users()
 
